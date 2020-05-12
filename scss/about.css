@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+h1,
+h2 {
+  text-align: center;
+  color: #F2F2F2;
+  font-family: "Henny Penny";
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pattaya";
+  color: #0D0D0D;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #F2F2F2;
+  font-family: "Henny Penny";
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pattaya";
+  color: #0D0D0D;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn,
+li > a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.main-content {
+  background-color: #8CBF3F;
+}
+
+.title-underline {
+  background-color: #9453A6;
+  min-height: 0.8rem;
+  border-radius: 5px;
+}
+
+.image-title {
+  color: #8CBF3F;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.mobile-home-picture {
+  max-height: 70vh;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*===================banner=====================*/
+.left-banner-section,
+.right-banner-section {
+  background-color: #F2CC0F;
+}
+
+.modal-backdrop,
+.modal-body {
+  background-image: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+}
+
+.banner {
+  width: 90%;
+  margin-left: 5%;
+  background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+  background-size: cover;
+  font-size: 40px;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 40px 15px;
+  min-height: 30vh;
+}
+
+.big-text {
+  font-size: 27px;
+  font-weight: 800;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.banner a {
+  display: inline-block;
+  background: #F2F2F2;
+  color: #0D0D0D;
+  text-transform: uppercase;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.banner a:hover {
+  background: #9453A6;
+  color: #F2F2F2;
+  padding: 7px 3px;
+}
+
+/*===============Header==================*/
+.navbar-brand img {
+  max-height: 2.5rem;
+}
+
+.header {
+  background-color: #9453A6;
+}
+
+@media (max-width: 576px) {
+  .title-underline {
+    min-height: 0.5rem;
+  }
+  h1,
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+}
+
+/*===============Footer============*/
+.footer {
+  background: #9453A6;
+  color: #F2F2F2;
+}
+
+.footer .links ul {
+  list-style-type: none;
+}
+
+.footer .links li a {
+  color: #F2F2F2;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #8CBF3F;
+}
+
+.footer .about-company i {
+  font-size: 25px;
+}
+
+.footer .about-company a {
+  color: #F2F2F2;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.footer .about-company a:hover {
+  color: #8CBF3F;
+}
+
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#trivia-btn,
+#trivia-btn:active,
+#trivia-btn:visited {
+  color: #8CBF3F;
+  border-color: #8CBF3F;
+}
+
+#trivia-btn:hover {
+  color: #F2F2F2;
+  border-color: #9453A6;
+  background-color: #8CBF3F;
+}
+
+.carousel-item {
+  min-height: 70vh;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.small {
+  min-height: 50vh;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.purple {
+  color: #9453A6 !important;
+}
+
+.main-section {
+  background-color: #8CBF3F;
+}
+
+@media (max-width: 1200px) {
+  .small {
+    min-height: 30vh;
+  }
+}
+/*# sourceMappingURL=about.css.map */

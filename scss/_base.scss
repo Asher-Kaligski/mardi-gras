@@ -1,0 +1,43 @@
+//Base Colors
+$basePurple:#9453A6;
+$baseGreen:#8CBF3F;
+$baseYellow:#F2CC0F;
+$baseYellowOpacity:rgba(242, 204, 15, 0.6);
+$baseWhite:#F2F2F2;
+$baseBlack:#0D0D0D;
+
+//Base Fonts
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+// Font Variables
+$font-hennyPenny: 'Henny Penny';
+$font-Pattaya: 'Pattaya';
+$font-Roboto: 'Roboto',
+sans-serif;
+
+h1,
+h2 {
+    text-align: center;
+    color: $baseWhite;
+    font-family: $font-hennyPenny;
+}
+
+
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-Pattaya;
+    color: $baseBlack;
+
+}
+
+body {
+
+    font-family: $font-Roboto;
+}

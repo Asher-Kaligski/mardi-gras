@@ -1,0 +1,55 @@
+@import "base";
+@import "components";
+
+.score-card p {
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    border-color: $basePurple;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fas {
+    color: $baseBlack;
+}
+
+.question {
+    text-align: center;
+    background-color: $baseYellow;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: $basePurple !important;
+    border-color: $basePurple !important;
+    box-shadow: 3px 5px $baseWhite;
+    padding: 10px !important;
+}
+
+
+
+
+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary:visited {
+    color: $basePurple !important;
+    border-color: $basePurple !important;
+}
+
+
+.btn-outline-primary:hover {
+
+    color: $baseWhite !important;
+    border-color: $basePurple !important;
+    background-color: $basePurple !important;
+}
+
+.btn-primary:hover {
+
+    color: $basePurple !important;
+    border-color: $basePurple !important;
+    background-color: $baseYellow !important;
+    box-shadow: 0px 0px;
+}

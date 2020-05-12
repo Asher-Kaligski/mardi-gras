@@ -1,0 +1,14 @@
+@import "base";
+@import "components";
+
+.main-section {
+    background-color: $baseGreen;
+}
+
+@media (max-width: 1200px) {
+
+    .small {
+        min-height: 30vh;
+
+    }
+}

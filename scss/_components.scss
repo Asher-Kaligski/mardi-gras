@@ -1,0 +1,201 @@
+@import "base";
+
+.btn,
+li>a {
+    transition: all 0.5s;
+}
+
+.main-content {
+    background-color: $baseGreen;
+}
+
+.title-underline {
+    background-color: $basePurple;
+    min-height: 0.8rem;
+    border-radius: 5px;
+
+}
+
+.image-title {
+    color: $baseGreen;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.mobile-home-picture {
+    max-height: 70vh;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*===================banner=====================*/
+
+
+
+.left-banner-section,
+.right-banner-section {
+    background-color: $baseYellow;
+
+
+}
+
+.modal-backdrop,
+.modal-body {
+    background-image: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+
+}
+
+
+
+.banner {
+    width: 90%;
+    margin-left: 5%;
+    background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+    background-size: cover;
+    font-size: 40px;
+    color: $baseWhite;
+    text-align: center;
+    padding: 40px 15px;
+    min-height: 30vh;
+}
+
+.big-text {
+    font-size: 27px;
+    font-weight: 800;
+    animation-delay: 1s;
+}
+
+.banner a {
+    display: inline-block;
+    background: $baseWhite;
+    color: $baseBlack;
+    text-transform: uppercase;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 10px;
+    transition: .3s;
+}
+
+.banner a:hover {
+    background: $basePurple;
+    color: $baseWhite;
+    padding: 7px 3px;
+}
+
+/*===============Header==================*/
+.navbar-brand img {
+    // max-height: 9vh;
+    max-height: 2.5rem;
+}
+
+.header {
+    background-color: $basePurple;
+
+}
+
+@media (max-width: 576px) {
+
+    .title-underline {
+
+        min-height: 0.5rem;
+
+
+    }
+
+    h1,
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}
+
+
+/*===============Footer============*/
+.footer {
+    background: $basePurple;
+    color: $baseWhite;
+
+    .links {
+        ul {
+            list-style-type: none;
+        }
+
+        li a {
+            color: $baseWhite;
+            transition: color .2s;
+
+            &:hover {
+                text-decoration: none;
+                color: $baseGreen;
+            }
+        }
+    }
+
+    .about-company {
+        i {
+            font-size: 25px;
+        }
+
+        a {
+            color: $baseWhite;
+            transition: color .2s;
+
+            &:hover {
+                color: $baseGreen
+            }
+        }
+    }
+
+
+    .copyright p {
+        border-top: 1px solid rgba(255, 255, 255, .1);
+    }
+}
+
+#trivia-btn,
+#trivia-btn:active,
+#trivia-btn:visited {
+    color: $baseGreen;
+    border-color: $baseGreen;
+}
+
+
+#trivia-btn:hover {
+
+    color: $baseWhite;
+    border-color: $basePurple;
+    background-color: $baseGreen;
+}
+
+.carousel-item {
+    min-height: 70vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.small {
+    min-height: 50vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.purple {
+    color: $basePurple !important;
+}

@@ -1,0 +1,18 @@
+@import "base";
+@import "components";
+
+
+.bigFrame {
+
+    min-height: 203vh;
+    max-width: 100%;
+}
+
+.card-body {
+    background-color: $baseYellow
+}
+
+
+.main {
+    min-height: 80vh;
+}

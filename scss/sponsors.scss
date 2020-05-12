@@ -1,0 +1,28 @@
+@import "base";
+@import "components";
+
+.main-section {
+    background-color: $baseGreen;
+}
+
+.button {
+    color: $basePurple !important;
+}
+
+
+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary:visited {
+    color: $basePurple !important;
+    border-color: $basePurple !important;
+}
+
+
+.btn-outline-primary:hover
+{
+
+    color: $baseWhite !important;
+    border-color: $basePurple !important;
+    background-color: $basePurple !important;
+}
+
